@@ -44,15 +44,15 @@ Then open [localhost:8000/rrs.cgi](http://localhost:8000/rrs.cgi)
 
 Cillian Sharkey, CASE3, 50716197
 
-1. [Introduction](#Introduction)
-2. [Pre-requisites](#Pre-requisites)
+1. [Introduction](#introduction)
+2. [Pre-requisites](#pre-requisites)
    1. Requirements for all setups
    2. Requirements for main setup
    3. Requirements for web setup
-3. [Installation](#Installation)
+3. [Installation](#installation)
    1. Installing software
    2. Setting up database
-4. [Configuration](#Configuration)
+4. [Configuration](#configuration)
 
 ### Introduction
 
