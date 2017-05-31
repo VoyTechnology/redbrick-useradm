@@ -30,17 +30,17 @@ Then open [localhost:8000/rrs.cgi](http://localhost:8000/rrs.cgi)
 2. Asks user for nickname, queries if nick exists in Redbrick LDAP.
 
 3. If the user doesn't exist.
-	- Creates the user's homedir
-	- Populates .forward with altmail address
-	- Assigns quotas.
-	- Adds the user to the announce-redbrick mailman list
-	- Mails user's password and account details.
+	- [x] Creates the user's homedir
+	- [x] Populates .forward with altmail address
+	- [x] Assigns quotas.
+	- [ ] Adds the user to the announce-redbrick mailman list
+	- [x] Mails user's password and account details.
 
 ### Renew User
 
 1. [x] Queries RB LDAP using user nickname.
 2. [x] Set yearsPaid=1 Set yeats paid to 1 if less than 1
-3. [ ] Reset user shell from `/usr/local/shell/expired` back to previous user's shell
+3. [x] Reset user shell from `/usr/local/shell/expired` back to previous user's shell
 4. [ ] Restores the correct user type before expiration (committee/associate)
 
 ## Installation Manual:
