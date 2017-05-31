@@ -1,5 +1,8 @@
 # Useradm
 
+[![CircleCI](https://circleci.com/gh/redbrick/useradm.svg?style=shield)](https://circleci.com/gh/redbrick/useradm)
+[![Code Climate](https://codeclimate.com/github/redbrick/useradm/badges/gpa.svg)](https://codeclimate.com/github/redbrick/useradm)
+
 ### Modular Python User Management Tool
 
 Useradm is used to manage Redbrick's membership.
@@ -27,11 +30,11 @@ Then open [localhost:8000/rrs.cgi](http://localhost:8000/rrs.cgi)
 2. Asks user for nickname, queries if nick exists in Redbrick LDAP.
 
 3. If the user doesn't exist.
-	- [x] Creates the user's homedir
-	- [x] Populates .forward with altmail address
-	- [x] Assigns quotas.
-	- [ ] Adds the user to the announce-redbrick mailman list
-	- [x] Mails user's password and account details.
+	- Creates the user's homedir
+	- Populates .forward with altmail address
+	- Assigns quotas.
+	- Adds the user to the announce-redbrick mailman list
+	- Mails user's password and account details.
 
 ### Renew User
 
@@ -97,7 +100,7 @@ however, full instructions can be found on the PostgresSQL website.
 
 ##### Python
 
-Python version 2.2 or higher must be installed. Details on doing this vary
+Python version 3 or higher must be installed. Details on doing this vary
 depending on the operating system and is outside the scope of this document
 however, full instructions can be found on the Python website.
 
